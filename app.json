@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/gift/send/sendpage",
+    "pages/gift/receive/receivepage",
+    "pages/gift/withdraw/withdrawpage",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FF82AB",
+    "navigationBarTitleText": "有礼",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "Y":"617px",
+    "list": [{
+      "width": "125px",
+      "height": "50px",
+      "pagePath": "pages/gift/send/sendpage",
+      "iconPath": "pages/images/sendGiftIcon.png",
+      "selectedIconPath": "pages/images/sendGiftIconSelected.png"
+    },{
+      "width": "125px",
+      "height": "50px",
+      "pagePath": "pages/gift/receive/receivepage",
+      "iconPath": "pages/images/receiveGiftIcon.png",
+      "selectedIconPath": "pages/images/receiveGiftIconSelected.png"
+    },
+    {
+      "width": "125px",
+      "height": "50px",
+      "pagePath": "pages/gift/withdraw/withdrawpage",
+      "iconPath": "pages/images/withdrawIcon.png",
+      "selectedIconPath": "pages/images/withdrawIconSelected.png"
+    }]
+  }
+}
